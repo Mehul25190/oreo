@@ -3,7 +3,7 @@
  * Main app
  *
  *
- * App Name:          rn_oreo
+ * App Name:          fbfashions
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.1.0
  * Author:            Rnlab.io

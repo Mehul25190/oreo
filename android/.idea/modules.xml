@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="fbfashions/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/721383232/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/721383232/react-native-community_async-storage.iml" group="fbfashions/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-330239796/react-native-community_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-330239796/react-native-community_google-signin.iml" group="fbfashions/react-native-community_google-signin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1347308129/react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/1347308129/react-native-community_netinfo.iml" group="fbfashions/react-native-community_netinfo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-462407310/react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-462407310/react-native-fbsdk.iml" group="fbfashions/react-native-fbsdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1385951587/react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1385951587/react-native-firebase_app.iml" group="fbfashions/react-native-firebase_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-761750932/react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-761750932/react-native-firebase_auth.iml" group="fbfashions/react-native-firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1639514426/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1639514426/react-native-gesture-handler.iml" group="fbfashions/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1596714494/react-native-onesignal.iml" filepath="$PROJECT_DIR$/.idea/modules/-1596714494/react-native-onesignal.iml" group="fbfashions/react-native-onesignal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/78266530/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/78266530/react-native-reanimated.iml" group="fbfashions/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-920953981/react-native-restart.iml" filepath="$PROJECT_DIR$/.idea/modules/-920953981/react-native-restart.iml" group="fbfashions/react-native-restart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-28265693/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-28265693/react-native-safe-area-context.iml" group="fbfashions/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-344452357/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-344452357/react-native-screens.iml" group="fbfashions/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/427899398/react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/427899398/react-native-splash-screen.iml" group="fbfashions/react-native-splash-screen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/596979932/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/596979932/react-native-vector-icons.iml" group="fbfashions/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1085509779/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-1085509779/react-native-webview.iml" group="fbfashions/react-native-webview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fbfashions.iml" filepath="$PROJECT_DIR$/.idea/modules/fbfashions.iml" group="fbfashions" />
+    </modules>
+  </component>
+</project>
