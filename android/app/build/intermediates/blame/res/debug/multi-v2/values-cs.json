@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
+            "outputFile": "D:\\Application\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dhruv\\.gradle\\caches\\transforms-2\\files-2.1\\2b217eb27619cabd24f7b15f15fb1f00\\jetified-facebook-login-5.15.3\\res\\values-cs\\values-cs.xml",

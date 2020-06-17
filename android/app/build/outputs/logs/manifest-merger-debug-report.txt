@@ -1,27 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-MERGED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-MERGED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:react-native-firebase_app] D:\oreo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+MERGED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+MERGED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_app] D:\Application\oreo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\87e4142cce93351d9b38a25b6a2d04b1\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-community_async-storage] D:\oreo\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_google-signin] D:\oreo\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-fbsdk] D:\oreo\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:1-28:12
-MERGED from [:react-native-gesture-handler] D:\oreo\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-onesignal] D:\oreo\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-reanimated] D:\oreo\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-restart] D:\oreo\node_modules\react-native-restart\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-safe-area-context] D:\oreo\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] D:\oreo\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-splash-screen] D:\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:react-native-vector-icons] D:\oreo\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\32c1242d07adabe71c33d4a095fcd82c\jetified-react-native-0.61.5\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_async-storage] D:\Application\oreo\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_google-signin] D:\Application\oreo\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-fbsdk] D:\Application\oreo\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:1-28:12
+MERGED from [:react-native-gesture-handler] D:\Application\oreo\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-onesignal] D:\Application\oreo\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] D:\Application\oreo\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-restart] D:\Application\oreo\node_modules\react-native-restart\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] D:\Application\oreo\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] D:\Application\oreo\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] D:\Application\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-vector-icons] D:\Application\oreo\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\a420c40676d6eda7d62309e364332932\jetified-react-native-0.61.5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:21:1-31:12
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\bd3d0b7faccf922853f61a7d7b7562cf\firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
 MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\369060b9af1c469c3d58c87bd2a04cc3\jetified-facebook-share-5.15.3\AndroidManifest.xml:21:1-31:12
@@ -98,30 +98,30 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Dhruv\.gradl
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\3bf3f6128185e9e9fe8949f9c00b1280\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\4ff53097f35bfd69a3860f01b23a58be\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\52d150b4b64f7bb2a6e155dfa896cf7d\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:2:11-35
-		INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:2:11-35
-		INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:2:11-35
+		INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:2:11-35
+		INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-		INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+		INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\oreo\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
-		INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:1-42:12
+		INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:4:5-66
-MERGED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:16:5-67
 MERGED from [com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:16:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\59bd5e05af7450c8d70be6c2906fe496\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
@@ -135,17 +135,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c050f1e7ab124a6e144b1579ef2af551\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c050f1e7ab124a6e144b1579ef2af551\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
-MERGED from D:\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
-MERGED from D:\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
-MERGED from [:react-native-splash-screen] D:\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
-MERGED from [:react-native-splash-screen] D:\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
-MERGED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\32c1242d07adabe71c33d4a095fcd82c\jetified-react-native-0.61.5\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\32c1242d07adabe71c33d4a095fcd82c\jetified-react-native-0.61.5\AndroidManifest.xml:11:5-20
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
+MERGED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
+MERGED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
+MERGED from [:react-native-splash-screen] D:\Application\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] D:\Application\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\a420c40676d6eda7d62309e364332932\jetified-react-native-0.61.5\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\a420c40676d6eda7d62309e364332932\jetified-react-native-0.61.5\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\bd3d0b7faccf922853f61a7d7b7562cf\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
@@ -213,120 +213,120 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Dhruv\.gr
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:8:13-45
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:8:13-45
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:8:13-45
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:8:13-45
 	android:hardwareAccelerated
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:13:13-48
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:13:13-48
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:13:13-48
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:13:13-48
 	tools:ignore
-		ADDED from D:\oreo\android\app\src\debug\AndroidManifest.xml:7:75-114
+		ADDED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:10:13-58
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:10:13-58
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:10:13-58
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:10:13-58
 	tools:targetApi
-		ADDED from D:\oreo\android\app\src\debug\AndroidManifest.xml:7:54-74
+		ADDED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:9:13-47
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:9:13-47
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:9:13-47
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:9:13-47
 	android:allowBackup
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:11:13-40
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:11:13-40
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:11:13-40
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:11:13-40
 	android:theme
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:12:13-44
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:12:13-44
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:12:13-44
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:12:13-44
 	android:usesCleartextTraffic
-		ADDED from D:\oreo\android\app\src\debug\AndroidManifest.xml:7:18-53
+		ADDED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:7:13-58
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:7:13-58
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:7:13-58
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:7:13-58
 activity#com.fbfashions.SplashActivity
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:18:17-49
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:18:17-49
 	android:theme
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:17:17-51
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:17:17-51
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:16:17-61
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:16:17-61
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:20:17-68
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:20:17-68
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:21:17-76
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:21:17-76
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.fbfashions.MainActivity
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:25:9-33:11
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:25:9-33:11
 	android:screenOrientation
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:28:17-53
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:28:17-53
 	android:label
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:27:17-49
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:27:17-49
 	android:launchMode
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:30:17-47
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:30:17-47
 	android:windowSoftInputMode
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:31:17-59
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:31:17-59
 	android:exported
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:32:17-40
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:32:17-40
 	android:configChanges
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:29:17-87
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:29:17-87
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:26:17-59
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:26:17-59
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:35:9-85
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:35:9-85
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:35:19-83
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:35:19-83
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:36:9-107
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:36:9-107
 	android:value
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:36:66-105
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:36:66-105
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:36:20-65
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:36:20-65
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:37:9-39:74
+ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:37:9-39:74
 	android:value
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:39:17-72
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:39:17-72
 	android:name
-		ADDED from D:\oreo\android\app\src\main\AndroidManifest.xml:38:17-62
+		ADDED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml:38:17-62
 uses-sdk
-INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] D:\oreo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase_app] D:\oreo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] D:\Application\oreo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] D:\Application\oreo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\87e4142cce93351d9b38a25b6a2d04b1\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\87e4142cce93351d9b38a25b6a2d04b1\multidex-2.0.0\AndroidManifest.xml:20:5-43
-MERGED from [:react-native-community_async-storage] D:\oreo\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_async-storage] D:\oreo\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_google-signin] D:\oreo\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_google-signin] D:\oreo\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-fbsdk] D:\oreo\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:41
-MERGED from [:react-native-fbsdk] D:\oreo\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:41
-MERGED from [:react-native-gesture-handler] D:\oreo\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] D:\oreo\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-onesignal] D:\oreo\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-onesignal] D:\oreo\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-reanimated] D:\oreo\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] D:\oreo\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-restart] D:\oreo\node_modules\react-native-restart\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-restart] D:\oreo\node_modules\react-native-restart\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] D:\oreo\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] D:\oreo\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] D:\oreo\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] D:\oreo\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-splash-screen] D:\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-splash-screen] D:\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] D:\oreo\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] D:\oreo\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\32c1242d07adabe71c33d4a095fcd82c\jetified-react-native-0.61.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\32c1242d07adabe71c33d4a095fcd82c\jetified-react-native-0.61.5\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_async-storage] D:\Application\oreo\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] D:\Application\oreo\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_google-signin] D:\Application\oreo\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_google-signin] D:\Application\oreo\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fbsdk] D:\Application\oreo\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-fbsdk] D:\Application\oreo\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-gesture-handler] D:\Application\oreo\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] D:\Application\oreo\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-onesignal] D:\Application\oreo\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] D:\Application\oreo\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] D:\Application\oreo\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] D:\Application\oreo\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-restart] D:\Application\oreo\node_modules\react-native-restart\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-restart] D:\Application\oreo\node_modules\react-native-restart\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] D:\Application\oreo\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] D:\Application\oreo\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] D:\Application\oreo\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] D:\Application\oreo\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] D:\Application\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] D:\Application\oreo\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] D:\Application\oreo\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] D:\Application\oreo\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\a420c40676d6eda7d62309e364332932\jetified-react-native-0.61.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\a420c40676d6eda7d62309e364332932\jetified-react-native-0.61.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\bd3d0b7faccf922853f61a7d7b7562cf\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
@@ -479,20 +479,20 @@ MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Dhruv\.gradle\caches\tra
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\4ff53097f35bfd69a3860f01b23a58be\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\52d150b4b64f7bb2a6e155dfa896cf7d\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\52d150b4b64f7bb2a6e155dfa896cf7d\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
-INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
-INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\oreo\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\oreo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\Application\oreo\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from D:\oreo\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from D:\oreo\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:5:22-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+ADDED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
 MERGED from [com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:18:5-68
 MERGED from [com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:18:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\59bd5e05af7450c8d70be6c2906fe496\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
@@ -506,11 +506,11 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c050f1e7ab124a6e144b1579ef2af551\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c050f1e7ab124a6e144b1579ef2af551\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+		ADDED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-MERGED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
-MERGED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+ADDED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:24:5-79
 MERGED from [com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\59bd5e05af7450c8d70be6c2906fe496\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
@@ -524,27 +524,27 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c050f1e7ab124a6e144b1579ef2af551\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c050f1e7ab124a6e144b1579ef2af551\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+		ADDED from [:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-76
+ADDED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from [:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-73
+		ADDED from [:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-73
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+		ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
 	android:exported
-		ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+		ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
 	android:resource
-		ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+		ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
 	android:name
-		ADDED from [:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+		ADDED from [:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\bd3d0b7faccf922853f61a7d7b7562cf\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents

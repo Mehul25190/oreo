@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>297766130098-hjpcl4oa4njgv28a96hk130aqghlocr8.apps.googleusercontent.com</string>
+	<string>393420730556-enhkdqhij32b348neaqme9ulfl24qpfl.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.297766130098-hjpcl4oa4njgv28a96hk130aqghlocr8</string>
+	<string>com.googleusercontent.apps.393420730556-enhkdqhij32b348neaqme9ulfl24qpfl</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>297766130098-uqasumdncq794jgf2lt6u22067sgvih0.apps.googleusercontent.com</string>
+	<string>393420730556-1rrhapqinmojd18c0u416c0blur47rum.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDXSquhnClOj1ou-G0phsZ-rr3AzvdhX3Q</string>
+	<string>AIzaSyDHJzGBHe50KwUqITIdDueZRrsIK5J-jEQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>297766130098</string>
+	<string>393420730556</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>oreo.rnlab.io</string>
+	<string>com.fbfashions</string>
 	<key>PROJECT_ID</key>
-	<string>oreo-240808</string>
+	<string>fbfashions-55fc2</string>
 	<key>STORAGE_BUCKET</key>
-	<string>oreo-240808.appspot.com</string>
+	<string>fbfashions-55fc2.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:297766130098:ios:93d5d026707117c73fd4ab</string>
+	<string>1:393420730556:ios:d845d35ff43a8f8ab860b9</string>
 	<key>DATABASE_URL</key>
-	<string>https://oreo-240808.firebaseio.com</string>
+	<string>https://fbfashions-55fc2.firebaseio.com</string>
 </dict>
 </plist>

@@ -29,8 +29,8 @@ const data = [
       ar: 'التسوق الذكي',
     },
     subtitle: {
-      en: 'Welcome to OREO Store',
-      ar: 'مرحبًا بكم في متجر OREO',
+      en: 'Welcome to Fbfashions Store',
+      ar: 'مرحبًا بكم في متجر Fbfashions',
     },
   },
   {

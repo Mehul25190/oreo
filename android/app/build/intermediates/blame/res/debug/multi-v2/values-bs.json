@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "D:\\Application\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dhruv\\.gradle\\caches\\transforms-2\\files-2.1\\98623f21376492342eff3011c59fa89c\\appcompat-1.1.0\\res\\values-bs\\values-bs.xml",

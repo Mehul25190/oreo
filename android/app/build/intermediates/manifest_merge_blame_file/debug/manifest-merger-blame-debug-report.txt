@@ -9,20 +9,20 @@
 9        android:targetSdkVersion="28" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->D:\oreo\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->D:\oreo\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\oreo\android\app\src\main\AndroidManifest.xml:4:5-66
-12-->D:\oreo\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:4:5-66
+12-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
-13-->[:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+13-->[:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+13-->[:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->[:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-14-->[:react-native-firebase_auth] D:\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+14-->[:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+14-->[:react-native-firebase_auth] D:\Application\oreo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
-15-->[:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-76
-15-->[:react-native-community_netinfo] D:\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-73
+15-->[:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-76
+15-->[:react-native-community_netinfo] D:\Application\oreo\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-73
 16    <permission
 16-->[com.onesignal:OneSignal:3.13.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\90debc3d2f28a35bb05a77a65f471095\jetified-OneSignal-3.13.1\AndroidManifest.xml:7:5-9:47
 17        android:name="com.fbfashions.permission.C2D_MESSAGE"
@@ -104,96 +104,96 @@
 49-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\c6ff2d45a3a262ad31f51c579ad78d8f\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 50
 51    <application
-51-->D:\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
+51-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:6:5-40:19
 52        android:name="com.fbfashions.MainApplication"
-52-->D:\oreo\android\app\src\main\AndroidManifest.xml:7:13-58
+52-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:7:13-58
 53        android:allowBackup="false"
-53-->D:\oreo\android\app\src\main\AndroidManifest.xml:11:13-40
+53-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:11:13-40
 54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 54-->[androidx.core:core:1.5.0-alpha01] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\eb45eb99470cc2d22ab476d126cdf8b0\core-1.5.0-alpha01\AndroidManifest.xml:24:18-86
 55        android:debuggable="true"
 56        android:hardwareAccelerated="false"
-56-->D:\oreo\android\app\src\main\AndroidManifest.xml:13:13-48
+56-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:13:13-48
 57        android:icon="@mipmap/ic_launcher"
-57-->D:\oreo\android\app\src\main\AndroidManifest.xml:9:13-47
+57-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:9:13-47
 58        android:label="@string/app_name"
-58-->D:\oreo\android\app\src\main\AndroidManifest.xml:8:13-45
+58-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:8:13-45
 59        android:roundIcon="@mipmap/ic_launcher_round"
-59-->D:\oreo\android\app\src\main\AndroidManifest.xml:10:13-58
+59-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:10:13-58
 60        android:supportsRtl="true"
 60-->[com.facebook.android:facebook-login:5.15.3] C:\Users\Dhruv\.gradle\caches\transforms-2\files-2.1\2b217eb27619cabd24f7b15f15fb1f00\jetified-facebook-login-5.15.3\AndroidManifest.xml:28:18-44
 61        android:theme="@style/AppTheme"
-61-->D:\oreo\android\app\src\main\AndroidManifest.xml:12:13-44
+61-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:12:13-44
 62        android:usesCleartextTraffic="true" >
-62-->D:\oreo\android\app\src\debug\AndroidManifest.xml:7:18-53
+62-->D:\Application\oreo\android\app\src\debug\AndroidManifest.xml:7:18-53
 63        <activity
-63-->D:\oreo\android\app\src\main\AndroidManifest.xml:15:9-23:20
+63-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:15:9-23:20
 64            android:name="com.fbfashions.SplashActivity"
-64-->D:\oreo\android\app\src\main\AndroidManifest.xml:16:17-61
+64-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:16:17-61
 65            android:label="@string/app_name"
-65-->D:\oreo\android\app\src\main\AndroidManifest.xml:18:17-49
+65-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:18:17-49
 66            android:theme="@style/SplashTheme" >
-66-->D:\oreo\android\app\src\main\AndroidManifest.xml:17:17-51
+66-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:17:17-51
 67            <intent-filter>
-67-->D:\oreo\android\app\src\main\AndroidManifest.xml:19:13-22:29
+67-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:19:13-22:29
 68                <action android:name="android.intent.action.MAIN" />
-68-->D:\oreo\android\app\src\main\AndroidManifest.xml:20:17-68
-68-->D:\oreo\android\app\src\main\AndroidManifest.xml:20:25-66
+68-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:20:17-68
+68-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:20:25-66
 69
 70                <category android:name="android.intent.category.LAUNCHER" />
-70-->D:\oreo\android\app\src\main\AndroidManifest.xml:21:17-76
-70-->D:\oreo\android\app\src\main\AndroidManifest.xml:21:27-74
+70-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:21:17-76
+70-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:21:27-74
 71            </intent-filter>
 72        </activity>
 73        <activity
-73-->D:\oreo\android\app\src\main\AndroidManifest.xml:25:9-33:11
+73-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:25:9-33:11
 74            android:name="com.fbfashions.MainActivity"
-74-->D:\oreo\android\app\src\main\AndroidManifest.xml:26:17-59
+74-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:26:17-59
 75            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-75-->D:\oreo\android\app\src\main\AndroidManifest.xml:29:17-87
+75-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:29:17-87
 76            android:exported="true"
-76-->D:\oreo\android\app\src\main\AndroidManifest.xml:32:17-40
+76-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:32:17-40
 77            android:label="@string/app_name"
-77-->D:\oreo\android\app\src\main\AndroidManifest.xml:27:17-49
+77-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:27:17-49
 78            android:launchMode="singleTop"
-78-->D:\oreo\android\app\src\main\AndroidManifest.xml:30:17-47
+78-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:30:17-47
 79            android:screenOrientation="portrait"
-79-->D:\oreo\android\app\src\main\AndroidManifest.xml:28:17-53
+79-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:28:17-53
 80            android:windowSoftInputMode="adjustResize" />
-80-->D:\oreo\android\app\src\main\AndroidManifest.xml:31:17-59
+80-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:31:17-59
 81        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-81-->D:\oreo\android\app\src\main\AndroidManifest.xml:35:9-85
-81-->D:\oreo\android\app\src\main\AndroidManifest.xml:35:19-83
+81-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:35:9-85
+81-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:35:19-83
 82
 83        <meta-data
-83-->D:\oreo\android\app\src\main\AndroidManifest.xml:36:9-107
+83-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:36:9-107
 84            android:name="com.facebook.sdk.ApplicationId"
-84-->D:\oreo\android\app\src\main\AndroidManifest.xml:36:20-65
+84-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:36:20-65
 85            android:value="@string/facebook_app_id" />
-85-->D:\oreo\android\app\src\main\AndroidManifest.xml:36:66-105
+85-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:36:66-105
 86        <meta-data
-86-->D:\oreo\android\app\src\main\AndroidManifest.xml:37:9-39:74
+86-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:37:9-39:74
 87            android:name="com.google.android.geo.API_KEY"
-87-->D:\oreo\android\app\src\main\AndroidManifest.xml:38:17-62
+87-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:38:17-62
 88            android:value="AIzaSyASrXvo8u4D_EV9kgz-2iEnZ0XgDJuIVnk" />
-88-->D:\oreo\android\app\src\main\AndroidManifest.xml:39:17-72
+88-->D:\Application\oreo\android\app\src\main\AndroidManifest.xml:39:17-72
 89
 90        <provider
-90-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+90-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
 91            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-91-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+91-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
 92            android:authorities="com.fbfashions.fileprovider"
-92-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+92-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
 93            android:exported="false"
-93-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+93-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
 94            android:grantUriPermissions="true" >
-94-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+94-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
 95            <meta-data
-95-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+95-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
 96                android:name="android.support.FILE_PROVIDER_PATHS"
-96-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+96-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
 97                android:resource="@xml/file_provider_paths" />
-97-->[:react-native-webview] D:\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+97-->[:react-native-webview] D:\Application\oreo\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
 98        </provider>
 99
 100        <activity

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
+            "outputFile": "D:\\Application\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dhruv\\.gradle\\caches\\transforms-2\\files-2.1\\116fb9919fc636fed930091c135630de\\jetified-firebase-messaging-20.0.1\\res\\values-kk\\values.xml",

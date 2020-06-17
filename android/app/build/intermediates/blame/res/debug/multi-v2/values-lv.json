@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+            "outputFile": "D:\\Application\\oreo\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dhruv\\.gradle\\caches\\transforms-2\\files-2.1\\5983221980d888e5695c469b953b70df\\play-services-base-17.1.0\\res\\values-lv\\values.xml",
