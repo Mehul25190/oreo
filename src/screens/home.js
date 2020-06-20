@@ -3,15 +3,17 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {DrawerActions} from 'react-navigation-drawer';
 
-import {ScrollView, View, Dimensions} from 'react-native';
+import {ScrollView, View, Dimensions, Linking} from 'react-native';
 
 import {ThemedView, Header} from 'src/components';
 import {IconHeader, Logo, CartIcon} from 'src/containers/HeaderComponent';
 import ModalHomePopup from 'src/containers/ModalHomePopup';
+import ActionButton from 'react-native-action-button';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import {
-    dataConfigSelector,
-    toggleSidebarSelector,
+  dataConfigSelector,
+  toggleSidebarSelector,
 } from 'src/modules/common/selectors';
 
 // Containers
@@ -29,85 +31,144 @@ import Vendors from './home/containers/Vendors';
 import Search from './home/containers/Search';
 import Divider from './home/containers/Divider';
 
-const {width}= Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
 const containers = {
-    slideshow: Slideshow,
-    categories: CategoryList,
-    products: ProductList,
-    productcategory: ProductCategory,
-    banners: Banners,
-    text: TextInfo,
-    countdown: CountDown,
-    blogs: BlogList,
-    testimonials: Testimonials,
-    button: Button,
-    vendors: Vendors,
-    search: Search,
-    divider: Divider,
+  slideshow: Slideshow,
+  categories: CategoryList,
+  products: ProductList,
+  productcategory: ProductCategory,
+  banners: Banners,
+  text: TextInfo,
+  countdown: CountDown,
+  blogs: BlogList,
+  testimonials: Testimonials,
+  button: Button,
+  vendors: Vendors,
+  search: Search,
+  divider: Divider,
 };
 
-const widthComponent = (spacing) => {
-    if (!spacing) {return width;}
-    const marginLeft = spacing.marginLeft && parseInt(spacing.marginLeft) ? parseInt(spacing.marginLeft) : 0;
-    const marginRight = spacing.marginRight && parseInt(spacing.marginRight) ? parseInt(spacing.marginRight) : 0;
-    const paddingLeft = spacing.paddingLeft && parseInt(spacing.paddingLeft) ? parseInt(spacing.paddingLeft) : 0;
-    const paddingRight = spacing.paddingRight && parseInt(spacing.paddingRight) ? parseInt(spacing.paddingRight) : 0;
-    return width - marginLeft - marginRight - paddingLeft - paddingRight;
+const widthComponent = spacing => {
+  if (!spacing) {
+    return width;
+  }
+  const marginLeft =
+    spacing.marginLeft && parseInt(spacing.marginLeft)
+      ? parseInt(spacing.marginLeft)
+      : 0;
+  const marginRight =
+    spacing.marginRight && parseInt(spacing.marginRight)
+      ? parseInt(spacing.marginRight)
+      : 0;
+  const paddingLeft =
+    spacing.paddingLeft && parseInt(spacing.paddingLeft)
+      ? parseInt(spacing.paddingLeft)
+      : 0;
+  const paddingRight =
+    spacing.paddingRight && parseInt(spacing.paddingRight)
+      ? parseInt(spacing.paddingRight)
+      : 0;
+  return width - marginLeft - marginRight - paddingLeft - paddingRight;
 };
 
 class HomeScreen extends React.Component {
-    renderContainer(config) {
-        console.log('test', config);
-        const Container = containers[config.type];
-        if (!Container) {
-            return null;
-        }
-        return (
-            <View key={config.id} style={config.spacing && config.spacing}>
-                <Container
-                  {...config}
-                  widthComponent={widthComponent(config.spacing)}
-                />
-            </View>
-        );
+  renderContainer(config) {
+    console.log('test', config);
+    const Container = containers[config.type];
+    if (!Container) {
+      return null;
     }
+    return (
+      <View key={config.id} style={config.spacing && config.spacing}>
+        <Container
+          {...config}
+          widthComponent={widthComponent(config.spacing)}
+        />
+      </View>
+    );
+  }
 
-    render() {
-        // const { category, product } = this.props;
-        const {config, toggleSidebar, navigation} = this.props;
-
-        return (
-            <ThemedView isFullView>
-                <Header
-                    leftComponent={
-                        toggleSidebar ? (
-                            <IconHeader
-                                name="align-left"
-                                size={22}
-                                onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
-                            />
-                        ) : null
-                    }
-                    centerComponent={<Logo />}
-                    rightComponent={<CartIcon />}
-                />
-                <ScrollView
-                    showsHorizontalScrollIndicator={false}
-                    showsVerticalScrollIndicator={false}>
-                    {config.map(config => this.renderContainer(config))}
-                </ScrollView>
-              <ModalHomePopup />
-            </ThemedView>
-        );
+  sendOnWhatsApp = () => {
+    let msg = 'I wanna discuse about Your product.';
+    let mobile = 7874766500;
+    if (mobile) {
+      if (msg) {
+        let url = 'whatsapp://send?text=' + msg + '&phone=91' + mobile;
+        Linking.openURL(url)
+          .then(data => {
+            console.log('WhatsApp Opened');
+          })
+          .catch(() => {
+            alert('Make sure Whatsapp installed on your device');
+          });
+      } else {
+        alert('Please insert message to send');
+      }
+    } else {
+      alert('Please insert mobile no');
     }
+  };
+
+  makeCall = () => {
+    let phoneNumber = '';
+    if (Platform.OS === 'android') {
+      phoneNumber = 'tel:${1234567890}';
+    } else {
+      phoneNumber = 'telprompt:${1234567890}';
+    }
+    Linking.openURL(phoneNumber);
+  };
+
+  render() {
+    // const { category, product } = this.props;
+    const {config, toggleSidebar, navigation, goPhone} = this.props;
+
+    return (
+      <ThemedView isFullView>
+        <Header
+          leftComponent={
+            toggleSidebar ? (
+              <IconHeader
+                name="align-left"
+                size={22}
+                onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
+              />
+            ) : null
+          }
+          centerComponent={<Logo />}
+          rightComponent={<CartIcon />}
+        />
+        <ScrollView
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}>
+          {config.map(config => this.renderContainer(config))}
+        </ScrollView>
+        <ModalHomePopup />
+        <ActionButton buttonColor="rgba(231,76,60,1)">
+          <ActionButton.Item
+            buttonColor="#1abc9c"
+            title="WhatsApp"
+            onPress={this.sendOnWhatsApp}>
+            <Icon name="logo-whatsapp" style={styles.actionButtonIcon} />
+          </ActionButton.Item>
+          <ActionButton.Item
+            buttonColor="#3498db"
+            title="Call Me"
+            onPress={this.makeCall}>
+            <Icon name="call-outline" style={styles.actionButtonIcon} />
+          </ActionButton.Item>
+        </ActionButton>
+      </ThemedView>
+    );
+  }
 }
 
 const mapStateToProps = state => {
-    return {
-        config: dataConfigSelector(state),
-        toggleSidebar: toggleSidebarSelector(state),
-    };
+  return {
+    config: dataConfigSelector(state),
+    toggleSidebar: toggleSidebarSelector(state),
+  };
 };
 
 export default connect(mapStateToProps)(HomeScreen);

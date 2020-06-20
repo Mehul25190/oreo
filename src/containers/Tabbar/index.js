@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {connect} from 'react-redux';
-import {TouchableOpacity, StyleSheet, View} from 'react-native';
+import {TouchableOpacity, StyleSheet, View, Dimensions} from 'react-native';
 import {Text, SafeAreaView} from 'src/components';
 import IconTabbar from './IconTabbar';
 
@@ -60,39 +60,7 @@ const Tabbar = props => {
     },
   ];
 
-  return (
-    <View>
-      <View
-        style={{
-          justifyContent: 'flex-start',
-          alignContent: 'flex-start',
-         padding:31,
-         backgroundColor: 'transparent'
-       
-        }}>
-        <ActionButton buttonColor="rgba(231,76,60,1)">
-          {/*Inner options of the action button*/}
-          {/*Icons here https://infinitered.github.io/ionicons-version-3-search/*/}
-          <ActionButton.Item
-            buttonColor="#9b59b6"
-            title="Add to Watch Later"
-            onPress={() => alert('Added to watch later')}>
-            <Icon name="md-eye" style={styles.actionButtonIcon} />
-          </ActionButton.Item>
-          <ActionButton.Item
-            buttonColor="#3498db"
-            title="Add to Favourite"
-            onPress={() => alert('Added to favourite')}>
-            <Icon name="md-star" style={styles.actionButtonIcon} />
-          </ActionButton.Item>
-          <ActionButton.Item
-            buttonColor="#1abc9c"
-            title="Share"
-            onPress={() => alert('Share Post')}>
-            <Icon name="md-share-alt" style={styles.actionButtonIcon} />
-          </ActionButton.Item>
-        </ActionButton>
-      </View>
+  return (    
       <SafeAreaView
         forceInset={{bottom: 'always'}}
         style={[styles.container, theme.TabNavigator.tabStyle]}>
@@ -129,7 +97,6 @@ const Tabbar = props => {
           ) : null,
         )}
       </SafeAreaView>
-    </View>
   );
 };
 
