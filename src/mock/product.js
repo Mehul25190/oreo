@@ -2,7 +2,7 @@ export default {
   id: 69,
   name: 'Denim shirt',
   slug: 'denim-shirt',
-  permalink: 'https://oreo.rnlab.io/product/denim-shirt/',
+  permalink: 'https://universalwebtech.com/mehul_hosting/oreo/product/denim-shirt/',
   date_created: '2019-06-02T06:58:24',
   date_created_gmt: '2019-06-02T06:58:24',
   date_modified: '2019-07-02T08:37:15',
