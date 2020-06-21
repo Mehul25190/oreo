@@ -3,13 +3,21 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {DrawerActions} from 'react-navigation-drawer';
 
-import {ScrollView, View, Dimensions, Linking} from 'react-native';
+import {
+  ScrollView,
+  View,
+  Dimensions,
+  Linking,
+  Image,
+  StyleSheet,
+} from 'react-native';
 
 import {ThemedView, Header} from 'src/components';
 import {IconHeader, Logo, CartIcon} from 'src/containers/HeaderComponent';
 import ModalHomePopup from 'src/containers/ModalHomePopup';
 import ActionButton from 'react-native-action-button';
-import Icon from 'react-native-vector-icons/Ionicons';
+// Icon from 'react-native-vector-icons/Ionicons';
+import {Icon} from 'react-native-elements';
 
 import {
   dataConfigSelector,
@@ -91,7 +99,7 @@ class HomeScreen extends React.Component {
 
   sendOnWhatsApp = () => {
     let msg = 'I wanna discuse about Your product.';
-    let mobile = 7874766500;
+    let mobile = 9924916869;
     if (mobile) {
       if (msg) {
         let url = 'whatsapp://send?text=' + msg + '&phone=91' + mobile;
@@ -113,9 +121,9 @@ class HomeScreen extends React.Component {
   makeCall = () => {
     let phoneNumber = '';
     if (Platform.OS === 'android') {
-      phoneNumber = 'tel:${1234567890}';
+      phoneNumber = 'tel:${9924916869}';
     } else {
-      phoneNumber = 'telprompt:${1234567890}';
+      phoneNumber = 'telprompt:${9924916869}';
     }
     Linking.openURL(phoneNumber);
   };
@@ -150,13 +158,29 @@ class HomeScreen extends React.Component {
             buttonColor="#1abc9c"
             title="WhatsApp"
             onPress={this.sendOnWhatsApp}>
-            <Icon name="logo-whatsapp" style={styles.actionButtonIcon} />
+            {/* <Icon
+              name="logo-whatsapp"
+              type="ionicons"
+              style={styles.actionButtonIcon}
+            /> */}
+            <Image
+              source={require('../assets/images/whatsapp.png')}
+              style={styles.whatsappactionButtonIcon}
+            />
           </ActionButton.Item>
           <ActionButton.Item
             buttonColor="#3498db"
             title="Call Me"
             onPress={this.makeCall}>
-            <Icon name="call-outline" style={styles.actionButtonIcon} />
+            {/* <Icon
+              name="call-out"
+              type="SimpleLineIcons"
+              style={styles.actionButtonIcon}
+            /> */}
+            <Image
+              source={require('../assets/images/call.png')}
+              style={styles.actionButtonIcon}
+            />
           </ActionButton.Item>
         </ActionButton>
       </ThemedView>
@@ -172,3 +196,15 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps)(HomeScreen);
+const styles = StyleSheet.create({
+  actionButtonIcon: {
+    height: 36,
+    width: 36,
+    tintColor: '#fff',
+  },
+  whatsappactionButtonIcon: {
+    height: 45,
+    width: 45,
+    tintColor: '#fff',
+  },
+});
