@@ -115,12 +115,12 @@ export default [
     _links: {
       self: [
         {
-          href: 'https://universalwebtech.com/mehul_hosting/oreo/wp-json/wc/v3/products/attributes/3',
+          href: 'https://fbfashions.co/wp-json/wc/v3/products/attributes/3',
         },
       ],
       collection: [
         {
-          href: 'https:/universalwebtech.com/mehul_hosting/oreo/wp-json/wc/v3/products/attributes',
+          href: 'https://fbfashions.co/wp-json/wc/v3/products/attributes',
         },
       ],
     },
@@ -144,7 +144,7 @@ export default [
         parent: 0,
         count: 2,
         filter: 'raw',
-        value: 'https://universalwebtech.com/mehul_hosting/oreo/uploads/2019/06/28100437/j9-150x150.jpg',
+        value: 'https://fbfashions.co/uploads/2019/06/28100437/j9-150x150.jpg',
       },
       {
         term_id: 63,
@@ -157,7 +157,7 @@ export default [
         parent: 0,
         count: 2,
         filter: 'raw',
-        value: 'https://universalwebtech.com/mehul_hosting/oreo/uploads/2019/06/28100504/j7-1-150x150.jpg',
+        value: 'https://fbfashions.co/uploads/2019/06/28100504/j7-1-150x150.jpg',
       },
       {
         term_id: 59,
@@ -170,7 +170,7 @@ export default [
         parent: 0,
         count: 1,
         filter: 'raw',
-        value: 'https://universalwebtech.com/mehul_hosting/oreo/uploads/2019/06/28100408/j4-150x150.jpg',
+        value: 'https://fbfashions.co/uploads/2019/06/28100408/j4-150x150.jpg',
       },
       {
         term_id: 60,
@@ -183,7 +183,7 @@ export default [
         parent: 0,
         count: 2,
         filter: 'raw',
-        value: 'https://universalwebtech.com/mehul_hosting/oreo/uploads/2019/06/28100432/j8-150x150.jpg',
+        value: 'https://fbfashions.co/uploads/2019/06/28100432/j8-150x150.jpg',
       },
       {
         term_id: 61,
@@ -196,18 +196,18 @@ export default [
         parent: 0,
         count: 1,
         filter: 'raw',
-        value: 'https://universalwebtech.com/mehul_hosting/oreo/uploads/2019/06/28100422/j6-150x150.jpg',
+        value: 'https://fbfashions.co/uploads/2019/06/28100422/j6-150x150.jpg',
       },
     ],
     _links: {
       self: [
         {
-          href: 'https://universalwebtech.com/mehul_hosting/oreo/wp-json/wc/v3/products/attributes/5',
+          href: 'https://fbfashions.co/wp-json/wc/v3/products/attributes/5',
         },
       ],
       collection: [
         {
-          href: 'https://universalwebtech.com/mehul_hosting/oreo/wp-json/wc/v3/products/attributes',
+          href: 'https://fbfashions.co/wp-json/wc/v3/products/attributes',
         },
       ],
     },
@@ -296,12 +296,12 @@ export default [
     _links: {
       self: [
         {
-          href: 'https://universalwebtech.com/mehul_hosting/oreo/wp-json/wc/v3/products/attributes/4',
+          href: 'https://fbfashions.co/wp-json/wc/v3/products/attributes/4',
         },
       ],
       collection: [
         {
-          href: 'https://universalwebtech.com/mehul_hosting/oreo/wp-json/wc/v3/products/attributes',
+          href: 'https://fbfashions.co/wp-json/wc/v3/products/attributes',
         },
       ],
     },

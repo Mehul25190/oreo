@@ -1,34 +1,34 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { useTranslation } from 'react-i18next';
-import { withNavigation } from 'react-navigation';
-import { compose } from 'redux';
+import {connect} from 'react-redux';
+import {useTranslation} from 'react-i18next';
+import {withNavigation} from 'react-navigation';
+import {compose} from 'redux';
 
 import truncate from 'lodash/truncate';
 import isEqual from 'lodash/isEqual';
 
-import { StyleSheet, View, TouchableOpacity } from 'react-native';
-import { Icon, Badge, Text, ListItem } from 'src/components';
+import {StyleSheet, View, TouchableOpacity} from 'react-native';
+import {Icon, Badge, Text, ListItem} from 'src/components';
 import Button from 'src/containers/Button';
 import Separator from 'src/containers/Separator';
-import { Row } from 'src/containers/Gird';
+import {Row} from 'src/containers/Gird';
 
-import { authSelector } from 'src/modules/auth/selectors';
+import {authSelector} from 'src/modules/auth/selectors';
 
-import { profileStack, authStack } from 'src/config/navigator';
-import { margin, padding } from 'src/components/config/spacing';
+import {profileStack, authStack} from 'src/config/navigator';
+import {margin, padding} from 'src/components/config/spacing';
 
 const HeaderMe = props => {
   const {
     navigation,
-    auth: { isLogin, user },
+    auth: {isLogin, user},
   } = props;
-  const { t } = useTranslation();
+  const {t} = useTranslation();
 
   let nameUser = t('profile:text_hello_default');
-  if (isLogin && user && !isEqual(user, {})) {
-    const stringName = t('profile:text_hello', { name: user.display_name });
 
+  if (isLogin && user && !isEqual(user, {})) {
+    const stringName = t('profile:text_hello', {name: user.display_name});
     nameUser = truncate(stringName, {
       length: 20,
       separator: '...',
@@ -60,18 +60,22 @@ const HeaderMe = props => {
   return (
     <ListItem
       title={nameUser}
-      leftAvatar={{
-        source: user.user_url ? { uri: user.user_url } : require('src/assets/images/pDefault.png'),
-        size: 60,
-        rounded: true,
-        onPress: () => navigation.navigate(profileStack.account),
-      }}
+      // leftAvatar={{
+      //   source: user.user_url ? { uri: user.user_url } : require('src/assets/images/call.png'),
+      //   size: 60,
+      //   rounded: true,
+      //   onPress: () => navigation.navigate(profileStack.account),
+      // }}
       titleProps={{
         medium: true,
         onPress: () => navigation.navigate(profileStack.account),
       }}
       rightElement={
-        <TouchableOpacity style={styles.loginBell} onPress={() => false && navigation.navigate(profileStack.notification_list)}>
+        <TouchableOpacity
+          style={styles.loginBell}
+          onPress={() =>
+            false && navigation.navigate(profileStack.notification_list)
+          }>
           <Icon name="bell" size={20} />
           {/*<Badge status="error" value={2} badgeStyle={styles.badge} textStyle={styles.textBadge} />*/}
         </TouchableOpacity>
@@ -119,5 +123,5 @@ const mapStateToProps = state => {
 
 export default compose(
   withNavigation,
-  connect(mapStateToProps)
+  connect(mapStateToProps),
 )(HeaderMe);

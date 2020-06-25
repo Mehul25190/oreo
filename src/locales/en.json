@@ -193,7 +193,7 @@
     "text_subtitle_3": "Discovering new horizons"
   },
   "profile": {
-    "text_hello": "Hello, {{name}}",
+    "text_hello": "Hello, \n{{name}}",
     "text_hello_default": "Hello, Client",
     "text_signin": "Sign In",
     "text_register": "Create Account",

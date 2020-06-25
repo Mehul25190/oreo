@@ -99,10 +99,10 @@ class HomeScreen extends React.Component {
 
   sendOnWhatsApp = () => {
     let msg = 'I wanna discuse about Your product.';
-    let mobile = 9924916869;
+    let mobile = 703315545;
     if (mobile) {
       if (msg) {
-        let url = 'whatsapp://send?text=' + msg + '&phone=91' + mobile;
+        let url = 'whatsapp://send?text=' + msg + '&phone=256' + mobile;
         Linking.openURL(url)
           .then(data => {
             console.log('WhatsApp Opened');
@@ -121,9 +121,9 @@ class HomeScreen extends React.Component {
   makeCall = () => {
     let phoneNumber = '';
     if (Platform.OS === 'android') {
-      phoneNumber = 'tel:${9924916869}';
+      phoneNumber = 'tel:+256392175511';
     } else {
-      phoneNumber = 'telprompt:${9924916869}';
+      phoneNumber = 'telprompt:+256392175511';
     }
     Linking.openURL(phoneNumber);
   };
