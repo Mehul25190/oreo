@@ -9,6 +9,7 @@ import {
   Dimensions,
   Linking,
   Image,
+  Text,
   StyleSheet,
 } from 'react-native';
 
@@ -18,6 +19,7 @@ import ModalHomePopup from 'src/containers/ModalHomePopup';
 import ActionButton from 'react-native-action-button';
 // Icon from 'react-native-vector-icons/Ionicons';
 import {Icon} from 'react-native-elements';
+import {WebView} from 'react-native-webview';
 
 import {
   dataConfigSelector,
@@ -38,6 +40,7 @@ import Button from './home/containers/Button';
 import Vendors from './home/containers/Vendors';
 import Search from './home/containers/Search';
 import Divider from './home/containers/Divider';
+import {profileStack} from 'src/config/navigator';
 
 const {width} = Dimensions.get('window');
 
@@ -81,6 +84,12 @@ const widthComponent = spacing => {
 };
 
 class HomeScreen extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      Livesupport: false,
+    };
+  }
   renderContainer(config) {
     console.log('test', config);
     const Container = containers[config.type];
@@ -95,6 +104,9 @@ class HomeScreen extends React.Component {
         />
       </View>
     );
+  }
+  LiveSupportChat() {
+    this.setState({Livesupport: true});
   }
 
   sendOnWhatsApp = () => {
@@ -136,53 +148,73 @@ class HomeScreen extends React.Component {
       <ThemedView isFullView>
         <Header
           leftComponent={
-            toggleSidebar ? (
+            this.state.Livesupport ? (
               <IconHeader
-                name="align-left"
+                name="home"
                 size={22}
-                onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
+                onPress={() => this.setState({Livesupport: false})}
               />
             ) : null
+            // toggleSidebar ? (
+            //   <IconHeader
+            //     name="align-left"
+            //     size={22}
+            //     onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
+            //   />
+            // ) : null
           }
           centerComponent={<Logo />}
           rightComponent={<CartIcon />}
         />
-        <ScrollView
-          showsHorizontalScrollIndicator={false}
-          showsVerticalScrollIndicator={false}>
-          {config.map(config => this.renderContainer(config))}
-        </ScrollView>
-        <ModalHomePopup />
-        <ActionButton buttonColor="rgba(231,76,60,1)">
-          <ActionButton.Item
-            buttonColor="#1abc9c"
-            title="WhatsApp"
-            onPress={this.sendOnWhatsApp}>
-            {/* <Icon
-              name="logo-whatsapp"
-              type="ionicons"
-              style={styles.actionButtonIcon}
-            /> */}
-            <Image
-              source={require('../assets/images/whatsapp.png')}
-              style={styles.whatsappactionButtonIcon}
-            />
-          </ActionButton.Item>
-          <ActionButton.Item
-            buttonColor="#3498db"
-            title="Call Me"
-            onPress={this.makeCall}>
-            {/* <Icon
-              name="call-out"
-              type="SimpleLineIcons"
-              style={styles.actionButtonIcon}
-            /> */}
-            <Image
-              source={require('../assets/images/call.png')}
-              style={styles.actionButtonIcon}
-            />
-          </ActionButton.Item>
-        </ActionButton>
+        {this.state.Livesupport ? (
+          <WebView
+            source={{
+              uri:
+                'https://www.tidio.com/talk/y22mcoo3zgkjdccp8xd6trw65pladmrv',
+            }}
+            javaScriptEnabled={true}
+            domStorageEnabled={true}
+          />
+        ) : (
+          <View style={{flex: 1}}>
+            <ScrollView
+              showsHorizontalScrollIndicator={false}
+              showsVerticalScrollIndicator={false}>
+              {config.map(config => this.renderContainer(config))}
+            </ScrollView>
+            <ModalHomePopup />
+
+            <ActionButton buttonColor="rgba(231,76,60,1)">
+              <ActionButton.Item
+                buttonColor="#6c133a"
+                title="Live Support"
+                onPress={() => this.LiveSupportChat()}>
+                <Image
+                  source={require('../assets/images/live-chat.png')}
+                  style={styles.supportactionButtonIcon}
+                />
+              </ActionButton.Item>
+              <ActionButton.Item
+                buttonColor="#1abc9c"
+                title="WhatsApp"
+                onPress={this.sendOnWhatsApp}>
+                <Image
+                  source={require('../assets/images/whatsapp.png')}
+                  style={styles.whatsappactionButtonIcon}
+                />
+              </ActionButton.Item>
+              <ActionButton.Item
+                buttonColor="#3498db"
+                title="Call Me"
+                onPress={this.makeCall}>
+                <Image
+                  source={require('../assets/images/call.png')}
+                  style={styles.actionButtonIcon}
+                />
+              </ActionButton.Item>
+            </ActionButton>
+          </View>
+        )}
       </ThemedView>
     );
   }
@@ -198,13 +230,18 @@ const mapStateToProps = state => {
 export default connect(mapStateToProps)(HomeScreen);
 const styles = StyleSheet.create({
   actionButtonIcon: {
-    height: 36,
-    width: 36,
+    height: 20,
+    width: 20,
     tintColor: '#fff',
   },
   whatsappactionButtonIcon: {
-    height: 45,
-    width: 45,
+    height: 27,
+    width: 27,
+    tintColor: '#fff',
+  },
+  supportactionButtonIcon: {
+    height: 34,
+    width: 34,
     tintColor: '#fff',
   },
 });

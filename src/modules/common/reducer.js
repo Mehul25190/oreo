@@ -9,10 +9,8 @@ const initConfigs = {
   toggleSidebar: true,
   isBeforeNewProduct: 5,
   toggleCheckout: true,
-  facebook: 'https://www.facebook.com/',
-  instagram: 'https://www.instagram.com/',
-  pinterest: 'https://www.pinterest.com/',
-  twitter: 'https://twitter.com/',
+  facebook: 'https://www.facebook.com/FB-Fashions-Ug-373849763195351/',
+  instagram: 'https://www.instagram.com/fbfashionsug/?hl=en',
   phone: '0123 456 789',
   email: 'youremail@gmail.com',
   address: '123456, your store address',
@@ -57,8 +55,8 @@ export const initState = fromJS({
   demo: {
     url: apiConfig.API_ENDPOINT,
     consumer_key: apiConfig.CONSUMER_KEY,
-    consumer_secret: apiConfig.CONSUMER_SECRET
-  }
+    consumer_secret: apiConfig.CONSUMER_SECRET,
+  },
 });
 
 /**
@@ -72,26 +70,38 @@ function commonReducer(state = initState, action = {}) {
   switch (type) {
     // Setting
     case Actions.SWITCH_MODE:
-      return state.set('theme', state.get('theme') === Actions.LIGHT ? Actions.DARK : Actions.LIGHT);
+      return state.set(
+        'theme',
+        state.get('theme') === Actions.LIGHT ? Actions.DARK : Actions.LIGHT,
+      );
     case Actions.FETCH_SETTING_SUCCESS:
       const defaultCurrency = payload.settings.currency;
       const defaultLanguage = payload.settings.language;
 
       // Check currency in list currency
-      const isCurrencyValidate = payload.settings.currencies && state.get('currency') && payload.settings.currencies[state.get('currency')];
+      const isCurrencyValidate =
+        payload.settings.currencies &&
+        state.get('currency') &&
+        payload.settings.currencies[state.get('currency')];
 
       return state
         .merge(fromJS(payload.settings))
         .set('theme', state.get('theme'))
-        .set('currency', isCurrencyValidate ? state.get('currency') : defaultCurrency)
+        .set(
+          'currency',
+          isCurrencyValidate ? state.get('currency') : defaultCurrency,
+        )
         .set('defaultCurrency', defaultCurrency)
         .set('language', state.get('language') || defaultLanguage)
         .set('defaultLanguage', defaultLanguage)
         .set('templates', fromJS(payload.templates))
-        .set('configs', fromJS({
-          ...initConfigs,
-          ...payload.configs,
-        }));
+        .set(
+          'configs',
+          fromJS({
+            ...initConfigs,
+            ...payload.configs,
+          }),
+        );
     case Actions.CHANGE_TEMPLATE:
       return state.set('templateActive', payload);
     case Actions.CHANGE_CURRENCY:
@@ -118,7 +128,9 @@ function commonReducer(state = initState, action = {}) {
     case Actions.FETCH_PAYMENT_GATEWAYS:
       return state.setIn(['paymentGateways', 'loading'], true);
     case Actions.FETCH_PAYMENT_GATEWAYS_SUCCESS:
-      return state.setIn(['paymentGateways', 'data'], fromJS(payload)).setIn(['paymentGateways', 'loading'], false);
+      return state
+        .setIn(['paymentGateways', 'data'], fromJS(payload))
+        .setIn(['paymentGateways', 'loading'], false);
     case Actions.FETCH_PAYMENT_GATEWAYS_ERROR:
       return state.setIn(['paymentGateways', 'loading'], false);
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { createBottomTabNavigator } from 'react-navigation-tabs';
+import {createBottomTabNavigator} from 'react-navigation-tabs';
 
 import Home from 'src/screens/home';
 import Category from 'src/screens/shop/category';
@@ -11,7 +11,7 @@ import CartStack from './cart-stack';
 
 import Tabbar from 'src/containers/Tabbar';
 
-import { homeTabs } from 'src/config/navigator';
+import {homeTabs} from 'src/config/navigator';
 
 const Tabs = createBottomTabNavigator(
   {
@@ -26,11 +26,13 @@ const Tabs = createBottomTabNavigator(
     },
     [homeTabs.cart]: {
       screen: CartStack,
-      navigationOptions: ({ navigation }) => {
-        const {state: {index}} = navigation
+      navigationOptions: ({navigation}) => {
+        const {
+          state: {index},
+        } = navigation;
         return {
           tabBarVisible: index === 0,
-        }
+        };
       },
     },
     [homeTabs.me]: {
@@ -41,8 +43,8 @@ const Tabs = createBottomTabNavigator(
     defaultNavigationOptions: {
       // tabBarVisible: false
     },
-    tabBarComponent: props => <Tabbar {...props}/>,
-  }
+    tabBarComponent: props => <Tabbar {...props} />,
+  },
 );
 
 export default Tabs;

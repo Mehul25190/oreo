@@ -56,47 +56,45 @@ const Tabbar = props => {
       iconProps: {
         size: 23,
       },
-      isShow: true,
+      isShow: 'true',
     },
   ];
 
-  return (    
-      <SafeAreaView
-        forceInset={{bottom: 'always'}}
-        style={[styles.container, theme.TabNavigator.tabStyle]}>
-        {data.map((tab, index) =>
-          tab.isShow ? (
-            <TouchableOpacity
-              key={index}
-              style={styles.item}
-              onPress={() => navigation.navigate(tab.router)}>
-              <IconTabbar
-                name={tab.iconName}
-                color={
-                  navigation.state.index === index
-                    ? theme.colors.primary
-                    : grey5
-                }
-                nameData={tab.nameData}
-                {...tab.iconProps}
-              />
-              <Text
-                medium
-                style={[
-                  styles.text,
-                  {
-                    color:
-                      navigation.state.index === index
-                        ? theme.colors.primary
-                        : grey5,
-                  },
-                ]}>
-                {tab.name}
-              </Text>
-            </TouchableOpacity>
-          ) : null,
-        )}
-      </SafeAreaView>
+  return (
+    <SafeAreaView
+      forceInset={{bottom: 'always'}}
+      style={[styles.container, theme.TabNavigator.tabStyle]}>
+      {data.map((tab, index) =>
+        tab.isShow ? (
+          <TouchableOpacity
+            key={index}
+            style={styles.item}
+            onPress={() => navigation.navigate(tab.router)}>
+            <IconTabbar
+              name={tab.iconName}
+              color={
+                navigation.state.index === index ? theme.colors.primary : grey5
+              }
+              nameData={tab.nameData}
+              {...tab.iconProps}
+            />
+            <Text
+              medium
+              style={[
+                styles.text,
+                {
+                  color:
+                    navigation.state.index === index
+                      ? theme.colors.primary
+                      : grey5,
+                },
+              ]}>
+              {tab.name}
+            </Text>
+          </TouchableOpacity>
+        ) : null,
+      )}
+    </SafeAreaView>
   );
 };
 

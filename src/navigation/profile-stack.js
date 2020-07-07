@@ -1,10 +1,11 @@
-import { profileStack } from 'src/config/navigator';
+import {profileStack} from 'src/config/navigator';
 
-import { createStackNavigator } from 'react-navigation-stack';
+import {createStackNavigator} from 'react-navigation-stack';
 
 import MeScreen from 'src/screens/profile/me';
 import SettingScreen from 'src/screens/profile/setting';
 import HelpScreen from 'src/screens/profile/help';
+import Livesupport from 'src/screens/profile/livesupport';
 import PrivacyScreen from 'src/screens/profile/privacy';
 import ContactScreen from 'src/screens/profile/contact';
 import AboutScreen from 'src/screens/profile/about';
@@ -25,6 +26,7 @@ export default createStackNavigator(
     [profileStack.me]: MeScreen,
     [profileStack.setting]: SettingScreen,
     [profileStack.help]: HelpScreen,
+    [profileStack.livesupport]: Livesupport,
     [profileStack.privacy]: PrivacyScreen,
     [profileStack.contact]: ContactScreen,
     [profileStack.about]: AboutScreen,
@@ -44,5 +46,5 @@ export default createStackNavigator(
     defaultNavigationOptions: {
       header: null,
     },
-  }
+  },
 );

@@ -66,6 +66,7 @@ export const profileStack = {
   me: 'MeScreen',
   setting: 'SettingScreen',
   help: 'HelpScreen',
+  livesupport: 'Livesupport',
   privacy: 'PrivacyScreen',
   contact: 'ContactScreen',
   about: 'AboutScreen',

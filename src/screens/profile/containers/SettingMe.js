@@ -8,15 +8,23 @@ import {grey4} from 'src/components/config/colors';
 import {icon, titleProps} from './config';
 import {margin, padding} from 'src/components/config/spacing';
 import {profileStack} from 'src/config/navigator';
-import {connect} from "react-redux";
+import {connect} from 'react-redux';
 import {signOut} from 'src/modules/auth/actions';
 
-const SettingMe = ({isLogin, phonenumber, clickPage, goPhone, handleSignOut}) => {
+const SettingMe = ({
+  isLogin,
+  phonenumber,
+  clickPage,
+  goPhone,
+  handleSignOut,
+}) => {
   const {t} = useTranslation();
 
   return (
     <>
-      <Text medium style={styles.title}>{t('profile:text_title_setting')}</Text>
+      <Text medium style={styles.title}>
+        {t('profile:text_title_setting')}
+      </Text>
       <ListItem
         leftIcon={icon(0)}
         title={t('common:text_setting')}
@@ -37,39 +45,54 @@ const SettingMe = ({isLogin, phonenumber, clickPage, goPhone, handleSignOut}) =>
       />
       <ListItem
         leftIcon={icon(2)}
+        title={t('profile:live_support')}
+        type="underline"
+        titleProps={titleProps}
+        pad={padding.large}
+        containerStyle={!isLogin && styles.itemEnd}
+        onPress={() => clickPage(profileStack.livesupport)}
+      />
+      <ListItem
+        leftIcon={null}
         title={t('profile:text_hotline')}
-        rightElement={<Text colorThird style={styles.phone}>{phonenumber}</Text>}
+        rightElement={
+          <Text colorThird style={styles.phone}>
+            {phonenumber}
+          </Text>
+        }
         type="underline"
         titleProps={titleProps}
         pad={padding.large}
         containerStyle={!isLogin && styles.itemEnd}
         onPress={() => goPhone(`tel:${phonenumber}`)}
       />
-      {isLogin && <ListItem
-        leftIcon={icon(3)}
-        title={t('profile:text_signout')}
-        type="underline"
-        titleProps={titleProps}
-        pad={padding.large}
-        containerStyle={styles.itemEnd}
-        onPress={handleSignOut}
-      />}
+      {isLogin && (
+        <ListItem
+          leftIcon={icon(3)}
+          title={t('profile:text_signout')}
+          type="underline"
+          titleProps={titleProps}
+          pad={padding.large}
+          containerStyle={styles.itemEnd}
+          onPress={handleSignOut}
+        />
+      )}
     </>
-  )
+  );
 };
 
 const styles = StyleSheet.create({
   title: {
     color: grey4,
     marginTop: margin.big + 4,
-    marginBottom: margin.small
+    marginBottom: margin.small,
   },
   phone: {
-    marginHorizontal: margin.small/2
+    marginHorizontal: margin.small / 2,
   },
   itemEnd: {
-    borderBottomWidth: 0
-  }
+    borderBottomWidth: 0,
+  },
 });
 
 SettingMe.defaultProps = {
@@ -81,4 +104,7 @@ SettingMe.defaultProps = {
 const mapDispatchToProps = {
   handleSignOut: signOut,
 };
-export default connect(null, mapDispatchToProps)(SettingMe);
+export default connect(
+  null,
+  mapDispatchToProps,
+)(SettingMe);

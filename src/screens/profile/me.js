@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
-import { StyleSheet, ScrollView, View, Linking } from 'react-native';
-import { Header, ThemedView, Text } from 'src/components';
+import {StyleSheet, ScrollView, View, Linking} from 'react-native';
+import {Header, ThemedView, Text} from 'src/components';
 
 import HeaderMe from './containers/HeaderMe';
 import SettingMe from './containers/SettingMe';
 import InformationMe from './containers/InformationMe';
 import Container from 'src/containers/Container';
 import SocialIcon from 'src/containers/SocialIcon';
-import { TextHeader, CartIcon } from 'src/containers/HeaderComponent';
+import {TextHeader, CartIcon} from 'src/containers/HeaderComponent';
 
-import { authSelector } from 'src/modules/auth/selectors';
-import { wishListSelector, configsSelector } from 'src/modules/common/selectors';
+import {authSelector} from 'src/modules/auth/selectors';
+import {wishListSelector, configsSelector} from 'src/modules/common/selectors';
 
-import { grey5 } from 'src/components/config/colors';
-import { margin } from 'src/components/config/spacing';
+import {grey5} from 'src/components/config/colors';
+import {margin} from 'src/components/config/spacing';
 
 class MeScreen extends Component {
   static navigationOptions = {
@@ -29,31 +29,51 @@ class MeScreen extends Component {
     };
   };
 
-  handleLinkUrl = (url) => {
+  handleLinkUrl = url => {
     Linking.openURL(url);
   };
 
-  goPageOther = (router) => {
-    this.props.navigation.navigate(router)
+  goPageOther = router => {
+    this.props.navigation.navigate(router);
+  };
+  sendOnWhatsApp = () => {
+    let msg = 'I wanna discuse about Your product.';
+    let mobile = 703315545;
+    if (mobile) {
+      if (msg) {
+        let url = 'whatsapp://send?text=' + msg + '&phone=256' + mobile;
+        Linking.openURL(url)
+          .then(data => {
+            console.log('WhatsApp Opened');
+          })
+          .catch(() => {
+            alert('Make sure Whatsapp installed on your device');
+          });
+      } else {
+        alert('Please insert message to send');
+      }
+    } else {
+      alert('Please insert mobile no');
+    }
   };
 
   render() {
     const {
       configs,
-      auth: { isLogin },
-      screenProps: { t },
+      auth: {isLogin},
+      screenProps: {t},
     } = this.props;
 
     return (
       <ThemedView isFullView>
-        <Header centerComponent={<TextHeader title={t('common:text_me_screen')} />} rightComponent={<CartIcon />} />
+        <Header
+          centerComponent={<TextHeader title={t('common:text_me_screen')} />}
+          rightComponent={<CartIcon />}
+        />
         <ScrollView>
           <Container style={styles.viewContent}>
             <HeaderMe />
-            <InformationMe
-              isLogin={isLogin}
-              clickPage={this.goPageOther}
-            />
+            <InformationMe isLogin={isLogin} clickPage={this.goPageOther} />
             <SettingMe
               isLogin={isLogin}
               clickPage={this.goPageOther}
@@ -82,22 +102,16 @@ class MeScreen extends Component {
               <SocialIcon
                 light
                 raised={false}
-                type="pinterest"
+                type="whatsapp"
                 style={styles.socialIconStyle}
                 iconSize={15}
-                onPress={() => this.handleLinkUrl(configs.get('pinterest'))}
+                onPress={() => this.sendOnWhatsApp()}
               />
 
-              <SocialIcon
-                light
-                raised={false}
-                type="twitter"
-                style={styles.socialIconStyle}
-                iconSize={15}
-                onPress={() => this.handleLinkUrl(configs.get('twitter'))}
-              />
             </View>
-            <Text h6 colorThird>{configs.get('copyright')}</Text>
+            <Text h6 colorThird>
+              {configs.get('copyright')}
+            </Text>
           </Container>
         </ScrollView>
       </ThemedView>
