@@ -3952,21 +3952,22 @@ public final class R {
     public static final int src_assets_images_gettingstart_getstart2=0x7f0601a5;
     public static final int src_assets_images_gettingstart_getstart3=0x7f0601a6;
     public static final int src_assets_images_imgcatedefault=0x7f0601a7;
-    public static final int src_assets_images_logo=0x7f0601a8;
-    public static final int src_assets_images_logodark=0x7f0601a9;
-    public static final int src_assets_images_map=0x7f0601aa;
-    public static final int src_assets_images_mapsandflags=0x7f0601ab;
-    public static final int src_assets_images_mask=0x7f0601ac;
-    public static final int src_assets_images_pdefault=0x7f0601ad;
-    public static final int src_assets_images_searchdark=0x7f0601ae;
-    public static final int src_assets_images_searchlight=0x7f0601af;
-    public static final int src_assets_images_unconnected=0x7f0601b0;
-    public static final int src_assets_images_ux=0x7f0601b1;
-    public static final int src_assets_images_wave=0x7f0601b2;
-    public static final int src_assets_images_wavedark=0x7f0601b3;
-    public static final int src_assets_images_whatsapp=0x7f0601b4;
-    public static final int tooltip_frame_dark=0x7f0601b5;
-    public static final int tooltip_frame_light=0x7f0601b6;
+    public static final int src_assets_images_livechat=0x7f0601a8;
+    public static final int src_assets_images_logo=0x7f0601a9;
+    public static final int src_assets_images_logodark=0x7f0601aa;
+    public static final int src_assets_images_map=0x7f0601ab;
+    public static final int src_assets_images_mapsandflags=0x7f0601ac;
+    public static final int src_assets_images_mask=0x7f0601ad;
+    public static final int src_assets_images_pdefault=0x7f0601ae;
+    public static final int src_assets_images_searchdark=0x7f0601af;
+    public static final int src_assets_images_searchlight=0x7f0601b0;
+    public static final int src_assets_images_unconnected=0x7f0601b1;
+    public static final int src_assets_images_ux=0x7f0601b2;
+    public static final int src_assets_images_wave=0x7f0601b3;
+    public static final int src_assets_images_wavedark=0x7f0601b4;
+    public static final int src_assets_images_whatsapp=0x7f0601b5;
+    public static final int tooltip_frame_dark=0x7f0601b6;
+    public static final int tooltip_frame_light=0x7f0601b7;
   }
   public static final class id {
     public static final int ALT=0x7f070000;

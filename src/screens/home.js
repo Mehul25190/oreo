@@ -106,7 +106,10 @@ class HomeScreen extends React.Component {
     );
   }
   LiveSupportChat() {
-    this.setState({Livesupport: true});
+    //this.setState({Livesupport: true});
+    this.props.navigation.navigate(profileStack.livesupport, {
+      name: 'homeTabs.home',
+    });
   }
 
   sendOnWhatsApp = () => {
@@ -166,7 +169,7 @@ class HomeScreen extends React.Component {
           centerComponent={<Logo />}
           rightComponent={<CartIcon />}
         />
-        {this.state.Livesupport ? (
+        {/* {this.state.Livesupport ? (
           <WebView
             source={{
               uri:
@@ -175,7 +178,7 @@ class HomeScreen extends React.Component {
             javaScriptEnabled={true}
             domStorageEnabled={true}
           />
-        ) : (
+        ) : ( */}
           <View style={{flex: 1}}>
             <ScrollView
               showsHorizontalScrollIndicator={false}
@@ -214,7 +217,7 @@ class HomeScreen extends React.Component {
               </ActionButton.Item>
             </ActionButton>
           </View>
-        )}
+        {/* )} */}
       </ThemedView>
     );
   }

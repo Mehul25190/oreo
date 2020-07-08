@@ -1700,6 +1700,10 @@
         "source": "D:\\Application\\oreo\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sb.png"
     },
     {
+        "merged": "D:\\Application\\oreo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_livechat.png.flat",
+        "source": "D:\\Application\\oreo\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_livechat.png"
+    },
+    {
         "merged": "D:\\Application\\oreo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_btn_check_material.xml.flat",
         "source": "C:\\Users\\Dhruv\\.gradle\\caches\\transforms-2\\files-2.1\\98623f21376492342eff3011c59fa89c\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material.xml"
     },

@@ -147,8 +147,8 @@ android {
         applicationId "com.fbfashions"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1579343927
-        versionName "1.2.5"
+        versionCode 1908072020
+        versionName "1.2.6"
         multiDexEnabled true
     }
 

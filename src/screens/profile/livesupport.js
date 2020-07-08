@@ -1,7 +1,9 @@
 import React from 'react';
+import {View, Modal} from 'react-native';
 import {Header, ThemedView} from 'src/components';
 import {IconHeader, Logo, CartIcon} from 'src/containers/HeaderComponent';
 import {WebView} from 'react-native-webview';
+import {homeTabs} from 'src/config/navigator';
 
 export default class Livesupport extends React.Component {
   static navigationOptions = {
@@ -10,7 +12,7 @@ export default class Livesupport extends React.Component {
 
   render() {
     return (
-      <ThemedView style={{flex: 1}}>
+      <View style={{flex: 1}}>
         <Header
           leftComponent={<IconHeader />}
           centerComponent={<Logo />}
@@ -23,7 +25,7 @@ export default class Livesupport extends React.Component {
           javaScriptEnabled={true}
           domStorageEnabled={true}
         />
-      </ThemedView>
+      </View>
     );
   }
 }
