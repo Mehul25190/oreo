@@ -1,19 +1,3 @@
-/**
- *
- * App router
- *
- *
- * App Name:          fbfashions
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.1.0
- * Author:            Rnlab.io
- *
- * @since             1.0.0
- *
- * @format
- * @flow
- */
-
 import React from 'react';
 
 import './config-i18n';

@@ -88,7 +88,13 @@ class HomeScreen extends React.Component {
     super();
     this.state = {
       Livesupport: false,
+      show: false,
     };
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({show: true});
+    }, 3000);
   }
   renderContainer(config) {
     console.log('test', config);
@@ -105,12 +111,12 @@ class HomeScreen extends React.Component {
       </View>
     );
   }
-  LiveSupportChat() {
-    //this.setState({Livesupport: true});
-    this.props.navigation.navigate(profileStack.livesupport, {
-      name: 'homeTabs.home',
-    });
-  }
+  // LiveSupportChat() {
+  //   //this.setState({Livesupport: true});
+  //   this.props.navigation.navigate(profileStack.livesupport, {
+  //     name: 'homeTabs.home',
+  //   });
+  // }
 
   sendOnWhatsApp = () => {
     let msg = 'I wanna discuse about Your product.';
@@ -151,20 +157,20 @@ class HomeScreen extends React.Component {
       <ThemedView isFullView>
         <Header
           leftComponent={
-            this.state.Livesupport ? (
+            //   this.state.Livesupport ? (
+            //     <IconHeader
+            //       name="home"
+            //       size={22}
+            //       onPress={() => this.setState({Livesupport: false})}
+            //     />
+            //   ) : null
+            toggleSidebar ? (
               <IconHeader
-                name="home"
+                name="align-left"
                 size={22}
-                onPress={() => this.setState({Livesupport: false})}
+                onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
               />
             ) : null
-            // toggleSidebar ? (
-            //   <IconHeader
-            //     name="align-left"
-            //     size={22}
-            //     onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
-            //   />
-            // ) : null
           }
           centerComponent={<Logo />}
           rightComponent={<CartIcon />}
@@ -179,16 +185,15 @@ class HomeScreen extends React.Component {
             domStorageEnabled={true}
           />
         ) : ( */}
-          <View style={{flex: 1}}>
-            <ScrollView
-              showsHorizontalScrollIndicator={false}
-              showsVerticalScrollIndicator={false}>
-              {config.map(config => this.renderContainer(config))}
-            </ScrollView>
-            <ModalHomePopup />
-
-            <ActionButton buttonColor="rgba(231,76,60,1)">
-              <ActionButton.Item
+        <View style={{flex: 1}}>
+          <ScrollView
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}>
+            {config.map(config => this.renderContainer(config))}
+          </ScrollView>
+          {this.state.show ? <ModalHomePopup /> : null}
+          <ActionButton buttonColor="rgba(231,76,60,1)">
+            {/* <ActionButton.Item
                 buttonColor="#6c133a"
                 title="Live Support"
                 onPress={() => this.LiveSupportChat()}>
@@ -196,27 +201,27 @@ class HomeScreen extends React.Component {
                   source={require('../assets/images/live-chat.png')}
                   style={styles.supportactionButtonIcon}
                 />
-              </ActionButton.Item>
-              <ActionButton.Item
-                buttonColor="#1abc9c"
-                title="WhatsApp"
-                onPress={this.sendOnWhatsApp}>
-                <Image
-                  source={require('../assets/images/whatsapp.png')}
-                  style={styles.whatsappactionButtonIcon}
-                />
-              </ActionButton.Item>
-              <ActionButton.Item
-                buttonColor="#3498db"
-                title="Call Me"
-                onPress={this.makeCall}>
-                <Image
-                  source={require('../assets/images/call.png')}
-                  style={styles.actionButtonIcon}
-                />
-              </ActionButton.Item>
-            </ActionButton>
-          </View>
+              </ActionButton.Item> */}
+            <ActionButton.Item
+              buttonColor="#1abc9c"
+              title="WhatsApp"
+              onPress={this.sendOnWhatsApp}>
+              <Image
+                source={require('../assets/images/whatsapp.png')}
+                style={styles.whatsappactionButtonIcon}
+              />
+            </ActionButton.Item>
+            <ActionButton.Item
+              buttonColor="#3498db"
+              title="Call Me"
+              onPress={this.makeCall}>
+              <Image
+                source={require('../assets/images/call.png')}
+                style={styles.actionButtonIcon}
+              />
+            </ActionButton.Item>
+          </ActionButton>
+        </View>
         {/* )} */}
       </ThemedView>
     );
